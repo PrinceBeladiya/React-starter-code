@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import LandingContainer from './modules/landing/components/landingContainer';
+import LandingContainer from './modules/landing';
 
 function RootRoutes() {
   return (

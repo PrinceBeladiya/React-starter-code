@@ -1,8 +1,8 @@
 import LandingContainer from './components/landingContainer';
 
-const fake = '';
+import landingReducer from './redux/reducer';
 
-export {
+export default {
   LandingContainer,
-  fake,
+  landingReducer,
 };
