@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
-import landingReducer from '../modules/landing';
+import { LandingComponentReducer } from '../modules/landing';
 
 export const appReducer = combineReducers({
-  landing: landingReducer,
+  landing: LandingComponentReducer,
 });
 
 const rootReducer = (state, action) => {
