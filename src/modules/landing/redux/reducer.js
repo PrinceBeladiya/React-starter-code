@@ -5,7 +5,7 @@ const INITIAL_STATE = {
   data: {},
 };
 
-const landingReducer = (state = INITIAL_STATE, action) => { // eslint-disable-line
+const LandingReducer = (state = INITIAL_STATE, action) => { // eslint-disable-line
   const { type, payload } = action;
   switch (type) {
     case ACTION_TYPES.GET_DATA:
@@ -18,4 +18,4 @@ const landingReducer = (state = INITIAL_STATE, action) => { // eslint-disable-li
   }
 };
 
-export default landingReducer;
+export default LandingReducer;
