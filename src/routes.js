@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import { LandingComponent } from './modules/landing';
+import { LandingContainer } from './modules/landing';
 
 function RootRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LandingComponent />} />
+        <Route path="/" element={<LandingContainer />} />
       </Routes>
     </BrowserRouter>
   );

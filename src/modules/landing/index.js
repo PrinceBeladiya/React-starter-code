@@ -1,11 +1,8 @@
 import LandingContainer from './components/landingContainer';
 
-import landingReducer from './redux/reducer';
+import LandingReducer from './redux/reducer';
 
-// export default {
-//   LandingContainer,
-//   landingReducer,
-// };
-
-export const LandingComponent = LandingContainer;
-export const LandingComponentReducer = landingReducer;
+export {
+  LandingContainer,
+  LandingReducer,
+};
