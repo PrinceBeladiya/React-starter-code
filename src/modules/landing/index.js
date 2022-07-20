@@ -1,4 +1,4 @@
-import LandingContainer from './components/landingContainer';
+import LandingContainer from './components/LandingContainer';
 
 import LandingReducer from './redux/reducer';
 
