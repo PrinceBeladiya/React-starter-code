@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux';
 
+import DashboardReducer from '../modules/dashboard';
 import { LandingReducer } from '../modules/landing';
 
 export const appReducer = combineReducers({
   landing: LandingReducer,
+  dashboard: DashboardReducer,
 });
 
 const rootReducer = (state, action) => {
