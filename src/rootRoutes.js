@@ -1,15 +1,15 @@
 import React from 'react';
-
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { LandingContainer } from './modules/landing';
 
-import Landing from './scenes/landing/Landing';
-
-const RootRoutes = () => (
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Landing />} />
-    </Routes>
-  </BrowserRouter>
-);
+function RootRoutes() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingContainer />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 export default RootRoutes;
